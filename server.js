@@ -87,9 +87,7 @@ io.on('connection', (socket) => {
 app.io = io;
 
 
-app.use(cors({
-    origin: 'https://jobportal-frontend-siug.vercel.app'
-  }));
+app.use(cors())
 app.use(express.json());
 app.use(cookieParser());
 dotenv.config();
