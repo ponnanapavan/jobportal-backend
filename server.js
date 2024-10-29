@@ -23,7 +23,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "*", // Replace '*' with your frontend origin in production
+        origin: "https://jobportal-frontend-wheat.vercel.app/", // Replace '*' with your frontend origin in production
        
     }
 });
