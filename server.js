@@ -88,7 +88,7 @@ app.io = io;
 
 
 app.use(cors({
-    origin: 'https://jobportal-frontend-wheat.vercel.app'
+    origin: 'https://jobportal-frontend-siug.vercel.app'
   }));
 app.use(express.json());
 app.use(cookieParser());
